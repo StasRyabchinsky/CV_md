@@ -1,0 +1,205 @@
+/* Обнуление стилей
+*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+   /* -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; */
+  }
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  input::-ms-clear {
+    display: none;
+  } 
+
+
+  body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 5% 10%;
+    font-size: 20px;
+  }
+
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  /* flex: 1 1 auto; */
+  padding-bottom: 15px;
+}
+  .hi {
+  }
+  .container {
+    /* max-width: 1180px; */
+    margin: 0, auto;
+  }
+  .hi_row {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+  .hi_img {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+  .hi_photo {
+    margin: 0 0 20px 0;
+    
+  }
+  .imgMyFacePhoto {
+
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 40%;
+    
+  }
+  .hi_name {
+    margin: 10px 0 20px 0;
+  }
+  .hi_contact {
+  }
+  .hi_title {
+   
+    padding: 20px 0 30px 0;
+  }
+  .hi_list {
+    padding: 0 25px;
+    
+  }
+  .hi_list li{
+    font-size: 25px;
+    padding: 0 0 10px 0
+    ;
+  }
+
+  .content {
+    padding-bottom: 15px;
+  }
+  .container {
+  }
+  .content_collum {
+    display: flex;
+    flex-direction: column;
+  }
+  .content_me {
+    padding-bottom: 15px;
+
+  }
+  
+  .content_title {
+    padding: 10px 20px;
+    letter-spacing: 2px;
+  }
+  .content_me_text {
+  }
+  .content_me_text p{
+    margin-top: 5px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 150%;
+    letter-spacing: 2px;
+  }
+
+
+  .content_skill {
+  }
+  .content_skill_row {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+  flex-wrap: wrap;
+  }
+  .content_skill_collum1 {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .content_skill_collum2 {
+  }
+  .content_skill_1_1 {
+  }
+  .content_skill_1_2 {
+  }
+  
+  .content_skill_2_1 {
+  }
+  .content_skill_2_2 {
+  }
+  .content_skill_list {
+    padding-left: 50px;
+    margin-top: 5px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 150%;
+    letter-spacing: 2px;
+  }
+  
+  .footer{
+    /* background-color: #267800cb; */
+    padding:20px;
+  }
+  .footer_icon {
+    display: flex;
+     justify-content: center;
+    align-items: center;
+  }
+  .footer_icon img{
+    
+   
+    max-width: 70px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
